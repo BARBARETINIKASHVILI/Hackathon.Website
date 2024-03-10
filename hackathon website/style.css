@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+
+
+body{
+    color: rgb(255, 255, 255);
+    background-color: black
+}
+
+form{
+    background-color: ;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(250, 235, 215, 0.64);
+    color: black;
+    width: 250px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.loginmenu{
+    transform: translate(75%,4%);
+    background-color:  rgb(10, 117, 26);
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginbutton{
+    transition: 1s;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+   margin: 10px;
+   border: 0px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.loginbutton:hover{
+    width: 150px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.473);
+    color:rgb(255, 255, 255) ;
+    border-radius: 50px;
+   margin: 10px;
+   border: 0px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#registersuggestion{
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    border-radius: 30px;
+    
+
+}
+
+#register{
+    color: antiquewhite;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+#register:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+#a{
+    text-decoration: none;
+}
+#bankwelcome{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
